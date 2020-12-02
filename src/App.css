@@ -1,0 +1,152 @@
+
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    font-family: Rubik, sans-serif;
+    
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: #00BBDB;
+}
+.container {
+
+text-align: center;
+display:flex;
+flex-direction: column;
+background-color: rgb(88, 0, 59);
+}
+.title:hover {
+   color:  #00BBDB;
+}
+
+.menu {
+    align-items: center;
+
+
+    margin: 5px 5px 5px 5px;
+    background-color: black;
+    color: white;
+    width: 100%;height:212px;
+    text-align: center;
+    padding-top: 40px;
+    font-size:45px;
+    padding-bottom: 25px;
+
+}
+.input {
+    top:-125px;
+    position: relative;
+    margin: 100px;
+    
+    padding: 0px;
+}
+.form {
+    height:40px;
+    width: 500px;
+}
+.click{
+    width: 83px;
+    height:46px;
+    color: black;
+}
+.click:hover {
+    background-color: lightgrey;
+    border: 1px solid rgba(42,0,172,0.32);
+    border-style: mix;
+}
+.form:hover {
+    background-color: lightgrey;
+    border: 1px solid rgba(42,0,172,0.32);
+    border-style: mix;
+}
+img:hover {
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.45);
+-moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.45);
+box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.45);
+  
+}
+img {
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: 1px solid #000000;
+
+    text-align: center;
+    max-width: 100%;max-height:100%;
+    width:247px; height:auto;
+    
+    padding-top: 0px;
+    /*
+    float:left;
+    padding-left:70px;
+    padding-top: 0px;
+    padding-bottom:50px;
+    */
+}
+
+li {
+   /* flex: 1;*/
+    text-align: center;
+    float: left;
+    position: relative;
+    width: 430px;height:557px;
+    list-style: none;
+    margin: 25px;
+    border-radius: 2px;
+    border-bottom: 2px solid black;
+    
+    border: 2px dashed rgba(42,0,172,0.32);
+    border-radius: 11px;
+    background-color: #ffffff;
+    padding-bottom: 80px;
+    padding-top: 45px;
+}
+.li-title {
+font-weight: bold;
+text-align: center;
+font-style: bold;
+font-size: 35px;
+padding: 17px 30px 0px 30px;
+margin-bottom: 20px;
+
+}
+.li-title:hover{
+
+
+}
+.year{
+    padding-top:0px;
+    color: rgb(121, 121, 121);
+    font-size: 17px;
+}
+footer {
+ 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+
+
+    background-color: #00BBDB;
+    color: white;
+    text-align: center;
+    padding-top:5px;
+
+    right: 0;
+    bottom:0;
+    left:0;
+    font-size: 12px;
+    color: white;
+   
+}
+
+/* 
+color scheme: 
+2A00AC
+
+
+*/
