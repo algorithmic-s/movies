@@ -6,12 +6,7 @@ to showcase that I fully understand how ReactJS, HTML and CSS can be used alongs
 
 
        RESOURCES USED:
-sending api requests
-//http://www.omdbapi.com/?apikey=[yourkey]&
-//http://www.omdbapi.com/?s=${searchValue}&apikey={process.env.REACT_APP_API_KEY}
-fetch ( `  https://www.omdbapi.com/?s=${searchValue}&apikey={api key numbers} )
-http://www.omdbapi.com/?s=${searchValue}&apikey=${process.env.REACT_APP_API_KEY}
-
+* sending api requests: www. omdbapi.com
 
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 * The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline,
